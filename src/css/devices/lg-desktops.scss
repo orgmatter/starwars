@@ -1,0 +1,688 @@
+/*** media queries for large desktop devices Desktops and laptops ---------- ***/
+
+@media only screen 
+and (min-width : 1440px) and (max-width: 2439px) {
+    .body-container-div {
+        
+        .dialog-cover-div {
+
+        }
+
+        .header-div {
+
+            .header-container {
+
+                .header-cover {
+
+                    .header-img-bg-cover {
+                        background: url('/assets/images/hero-banner.jpg') no-repeat;  
+                        background-size: cover;
+                        background-position: 20% 50%;
+
+                        .header-bg-overlay {
+                            padding-top: 25px;
+                            padding-left: 35px;
+
+                            .header-logo-cover-flex {
+                                display: flex;
+                                justify-content: flex-start;
+
+                                .header-logo-cover-item {
+                                    width: 100px;
+
+                                    .header-logo-img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .header-content-overlay-flex {
+                                display: flex;
+                                justify-content: center;
+
+                                .header-content-overlay-item {
+                                    flex: 0 0 75%;
+                                    // border: 1px solid green;
+                                    height: 400px;
+                                    padding-top: 40px;
+
+                                    .overlay-header-text-div-flex {
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .overlay-header-text-div-item {
+                                            flex: 0 0 75%;
+                                            // border: 1px solid red;
+
+                                            .overlay-title-div-flex {
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .overlay-title-div-main-item {
+                                                    flex: 0 0 60%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    padding-top: 10px;
+                                                    padding-bottom: 10px;
+                                                    border-bottom: 1px solid lightgrey;
+
+                                                    .overlay-title-div-item {
+    
+                                                    }
+                                                    #image-div-item {
+                                                        width: 40%;
+        
+                                                        .header-logo-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                    #text-div-item {
+                                                        width: 60%;
+                                                        padding-left: 10px;
+                                                        // border: 1px solid red;
+                                                        // text-align: right;
+        
+                                                        .overlay-title-h {
+                                                            font-size: 3.7rem;
+                                                            color: #FFFFFF;
+                                                            font-weight: 600;
+                                                            margin-block-start: 0rem;
+                                                            margin-block-end: 0rem;
+                                                            // line-height: 25px;
+                                                        }
+                                                    }
+                                                }
+
+                                            }
+                                            .overlay-subtitle-div-flex {
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .overlay-subtitle-div-item {
+                                                    flex: 0 0 60%;
+
+                                                    .overlay-subtitle-div {
+                                                        padding-top: 5px;
+                                                        text-align: center;
+            
+                                                        .overlay-subtitle-p {
+                                                            font-size: 1.2rem;
+                                                            color: #FFFFFF;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .overlay-searchbox-container {
+
+                                        .overlay-searchbox-flex {
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .overlay-searchbox-item {
+                                                flex: 0 0 75%;
+                                                padding-top: 10px;
+
+                                                .overlay-searchbox-cover {
+                                                    position: relative;
+                                                    width: 100%;
+                                                    height: 40px;
+                                                    border-radius: 4px;
+                                                    background-color: rgb(245,245,245);
+
+                                                    .overlay-searchbox-input {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        border: none;
+                                                        border-radius: 4px;
+                                                        background-color: rgb(245,245,245);
+                                                        color: rgba(0,0,0,0.7);
+                                                        font-weight: 600;
+                                                        font-size: 1.1rem;
+                                                        padding-left: 15px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .body-content-div {
+
+            .body-container-div-flex {
+                display: flex;
+                justify-content: center;
+
+                .body-container-div-item {
+                    flex: 0 0 80%;
+                    // border: 1px solid red;
+
+                    .feedcards-container {
+
+                        .feedcards-characters-container {
+
+                            .feedcards-characters-cover {
+
+                                .feedcards-characters-title-container {
+
+                                    .characters-title-flex {
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .characters-title-item {
+                                            flex: 0 0 50%;
+                                            // border: 1px solid red;
+
+                                            .characters-title-cover {
+                                                padding-top: 30px;
+                                                padding-bottom: 30px;
+                                                text-align: center;
+
+                                                .characters-title {
+                                                    font-size: 1.5rem;
+                                                    font-weight: 600;
+                                                    color: rgba(0,0,0,0.7);
+                                                    margin-block-start: 0.1rem;
+                                                    margin-block-end: 0.1rem;
+                                                }
+                                                .title-underline-p {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    margin-block-start: 0.7rem;
+
+                                                    .title-underline-span {
+                                                        flex: 0 0 18%;
+                                                        height: 6px;
+                                                        background-color: rgba(0,0,0,0.7);
+                                                        border-radius: 10px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .feedcards-characters-content-container {
+
+                                    .feedcards-characters-content-cover {
+                                        padding-top: 10px;
+                                        padding-bottom: 40px;
+
+                                        .feedcards-characters-card-flex {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            flex-flow: row wrap;
+
+                                            .feedcards-characters-card-item {
+                                                width: 49.7%;
+                                                position: relative;
+                                                // border: 1px solid lightgrey;
+                                                border-radius: 4px;
+                                                // box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05), 0px 1px 10px rgba(0, 0, 0, 0.19);
+
+                                                .feedcards-characters-card-cover {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    padding-bottom: 35px;
+
+                                                    .card-image-cover {
+                                                        width: 60%;
+
+                                                        .card-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                    .card-text-cover {
+                                                        width: 40%;
+                                                        background-color: rgb(245,245,245);
+                                                        padding-left: 10px;
+                                                        padding-top: 50px;
+                                                        // border: 1px solid blue;
+
+                                                        .card-text-title-div {
+                                                            padding-top: 10px;
+
+                                                            .card-title {
+                                                                font-size: 1rem;
+                                                                color: rgba(0,0,0,0.7);
+                                                                margin-block-end: 0rem;
+                                                                margin-block-start: 0rem;
+                                                            }
+                                                        }
+                                                        .card-text-subtitle-div {
+
+                                                            .card-subtitle {
+                                                                font-size: 0.9rem;
+                                                                color: rgba(0,0,0,0.5);
+                                                            }
+                                                        }
+                                                        .card-btn-cover {
+                                                            padding-top: 10px;
+                                                            padding-bottom: 10px;
+                                                            padding-right: 15px;
+
+                                                            .card-btn-flex {
+                                                                display: flex;
+                                                                justify-content: flex-end;
+
+                                                                .card-btn-item {
+                                                                    width: 120px;
+                                                                    height: 30px;
+
+                                                                    .card-btn {
+                                                                        display: block;
+                                                                        text-decoration: none;
+                                                                        line-height: 30px;
+                                                                        width: 100%;
+                                                                        color: rgba(0,0,0,0.7);
+                                                                        font-weight: 600;
+                                                                        // background-color: rgba(0,0,0,0.9);
+                                                                        text-align: center;
+                                                                        border-radius: 2px;
+                                                                        font-size: 0.8rem;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .feedcards-viewmore-btn-container {
+
+                                    .feedcards-viewmore-btn-cover {
+                                        padding-top: 15px;
+                                        padding-bottom: 15px;
+
+                                        .feedcards-viewmore-btn-flex {
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .feedcards-viewmore-btn-item {
+                                                width: 20%;
+
+                                                .feedcards-viewmore-btn {
+                                                    width: 100%;
+                                                    color: rgba(0,0,0,0.7);
+                                                    background-color: transparent;
+                                                    border: 1px solid rgba(0,0,0,0.7);
+                                                    border-radius: 4px;
+                                                    font-size: 1rem;
+                                                    padding-top: 3px;
+                                                    padding-bottom: 3px;
+                                                    transition: all 0.1s ease-in-out;
+
+                                                    &:hover {
+                                                        background-color: rgb(245,245,245);
+                                                        cursor: pointer;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .feedcards-planets-container {
+
+                            .feedcards-planets-cover {
+
+                                .feedcards-planets-title-container {
+
+                                    .planets-title-flex {
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .planets-title-item {
+                                            flex: 0 0 50%;
+                                            // border: 1px solid red;
+
+                                            .planets-title-cover {
+                                                padding-top: 30px;
+                                                padding-bottom: 30px;
+                                                text-align: center;
+
+                                                .planets-title {
+                                                    font-size: 1.5rem;
+                                                    font-weight: 600;
+                                                    color: rgba(0,0,0,0.7);
+                                                    margin-block-start: 0.1rem;
+                                                    margin-block-end: 0.1rem;
+                                                }
+                                                .title-underline-p {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    margin-block-start: 0.7rem;
+
+                                                    .title-underline-span {
+                                                        flex: 0 0 18%;
+                                                        height: 6px;
+                                                        background-color: rgba(0,0,0,0.7);
+                                                        border-radius: 10px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .feedcards-planets-content-container {
+
+                                    .feedcards-planets-content-cover {
+                                        padding-top: 10px;
+                                        padding-bottom: 40px;
+
+                                        .feedcards-planets-card-flex {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            flex-flow: row wrap;
+
+                                            .feedcards-planets-card-item {
+                                                width: 30%;
+                                                position: relative;
+
+                                                .feedcards-planets-card-cover {
+                                                    // border: 1px solid lightgrey;
+                                                    border-radius: 4px;
+                                                    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05), 0px 1px 10px rgba(0, 0, 0, 0.19);
+
+                                                    .card-image-cover {
+                                                        width: 100%;
+
+                                                        .card-img {
+                                                            width: 100%;
+                                                            border-radius: 4px;
+                                                        }
+                                                    }
+                                                    .card-img-title-overlay {
+                                                        position: absolute;
+                                                        height: 99%;
+                                                        width: 100%;
+                                                        top: 0px;
+                                                        background-color: rgba(0,0,0,0.4); 
+                                                        border-radius: 4px;
+
+                                                        .card-img-title-overlay-flex {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            // align-items: flex-end;
+                                                            padding-top: 280px;
+                                                            height: 100%;
+                                                            width: 100%;
+
+                                                            &:hover {
+                                                                cursor: pointer;
+                                                            }
+
+                                                            .card-img-title-overlay-item {
+                                                                width: 100%;
+
+                                                                .card-img-title-div {
+                                                                    text-align: center;
+                                                                    background-color: rgba(0,0,0,0.8);
+                                                                    width: 100%;
+                                                                    padding-top: 10px;
+                                                                    padding-bottom: 10px;
+                                                                    transition: all 0.2s ease-in-out;
+
+                                                                    .card-img-title {
+                                                                        font-size: 1.2rem;
+                                                                        font-weight: 600;
+                                                                        color: #FFFFFF;
+                                                                        margin-block-end: 0rem;
+                                                                        margin-block-start: 0rem;
+                                                                    }
+                                                                }
+                                                            }
+                                                            &:hover .card-img-title-div {
+                                                                background-color: rgba(0,0,0,0);
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .feedcards-starships-container {
+
+                            .feedcards-starships-cover {
+
+                                .feedcards-starships-title-container {
+
+                                    .starships-title-flex {
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .starships-title-item {
+                                            flex: 0 0 50%;
+                                            // border: 1px solid red;
+
+                                            .starships-title-cover {
+                                                padding-top: 30px;
+                                                padding-bottom: 30px;
+                                                text-align: center;
+
+                                                .starships-title {
+                                                    font-size: 1.5rem;
+                                                    font-weight: 600;
+                                                    color: rgba(0,0,0,0.7);
+                                                    margin-block-start: 0.1rem;
+                                                    margin-block-end: 0.1rem;
+                                                }
+                                                .title-underline-p {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    margin-block-start: 0.7rem;
+
+                                                    .title-underline-span {
+                                                        flex: 0 0 18%;
+                                                        height: 6px;
+                                                        background-color: rgba(0,0,0,0.7);
+                                                        border-radius: 10px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .feedcards-starships-content-container {
+
+                                    .feedcards-starships-content-cover {
+                                        padding-top: 10px;
+                                        padding-bottom: 40px;
+
+                                        .feedcards-starships-card-flex {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            flex-flow: row wrap;
+                                            // border: 1px solid red;
+
+                                            .feedcards-starships-card-item {
+                                                width: 30%;
+                                                padding-bottom: 40px;
+
+                                                .feedcards-starships-card-cover {
+                                                    // border: 1px solid lightgrey;
+                                                    border-radius: 4px;
+                                                    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05), 0px 1px 10px rgba(0, 0, 0, 0.19);
+
+                                                    .card-image-cover {
+                                                        width: 100%;
+
+                                                        .card-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                    .card-text-cover {
+                                                        background-color: rgb(245,245,245);
+                                                        padding-left: 20px;
+                                                        // border: 1px solid blue;
+
+                                                        .card-text-title-div {
+                                                            padding-top: 10px;
+
+                                                            .card-title {
+                                                                font-size: 1rem;
+                                                                color: rgba(0,0,0,0.5);
+                                                                margin-block-end: 0rem;
+                                                                margin-block-start: 0rem;
+                                                            }
+                                                        }
+                                                        .card-text-subtitle-div {
+
+                                                            .card-subtitle {
+                                                                font-size: 0.9rem;
+                                                                color: rgba(0,0,0,0.5);
+                                                            }
+                                                        }
+                                                        .card-btn-cover {
+                                                            padding-top: 10px;
+                                                            padding-bottom: 10px;
+                                                            padding-right: 15px;
+
+                                                            .card-btn-flex {
+                                                                display: flex;
+                                                                justify-content: flex-end;
+
+                                                                .card-btn-item {
+                                                                    width: 120px;
+                                                                    height: 30px;
+
+                                                                    .card-btn {
+                                                                        display: block;
+                                                                        text-decoration: none;
+                                                                        line-height: 30px;
+                                                                        width: 100%;
+                                                                        color: #FFFFFF;
+                                                                        background-color: rgba(0,0,0,0.9);
+                                                                        text-align: center;
+                                                                        border-radius: 2px;
+                                                                        font-size: 0.8rem;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .feedcards-viewmore-btn-container {
+
+                                    .feedcards-viewmore-btn-cover {
+                                        padding-top: 15px;
+                                        padding-bottom: 15px;
+
+                                        .feedcards-viewmore-btn-flex {
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .feedcards-viewmore-btn-item {
+                                                width: 20%;
+
+                                                .feedcards-viewmore-btn {
+                                                    width: 100%;
+                                                    color: rgba(0,0,0,0.7);
+                                                    background-color: transparent;
+                                                    border: 1px solid rgba(0,0,0,0.7);
+                                                    border-radius: 4px;
+                                                    font-size: 1rem;
+                                                    padding-top: 3px;
+                                                    padding-bottom: 3px;
+                                                    transition: all 0.1s ease-in-out;
+
+                                                    &:hover {
+                                                        background-color: rgb(245,245,245);
+                                                        cursor: pointer;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .feeds-container-div {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+
+                .feed-card-container-div {
+                    flex: 0 0 60%;
+                    max-width: 60%;
+                    //border: 1px solid red;
+                    display: flex;
+                    justify-content: center;
+
+                    .feed-card-inner-container-div {
+                        flex: 0 0 60%;
+                        max-width: 60%;
+                        display: flex;
+                        justify-content: center;
+                        //flex-direction: column;
+                        flex-flow: row wrap;
+                        //border: 4px solid green;
+
+                        .feed-card-cover-div {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                            //max-height: 47%;
+                            padding-bottom: 15px;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            //border: 1px solid blue;
+    
+                            .feed-card-component {
+                                flex: 0 0 100%;
+                                max-width: 100%;
+                            }
+                            
+                            .no-story-res-p {
+                                //text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-nav-div {
+
+            .bottom-fab-btn {
+                //background-color: white;
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+}
+
+
+/* //     .body-container {
+
+    //         .content {
+    
+    //             .texts-cover {
+    
+    //                 .title-cover {
+    
+                        
+    //                 }
+    //             }
+    //         }
+        } */
